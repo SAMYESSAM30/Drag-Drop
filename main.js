@@ -25,7 +25,7 @@ function dradItem() {
       box.addEventListener("dragover", (e) => {
         e.preventDefault();
         box.Style.background = "#090";
-        box.Style.color = "#fff";
+        box.Style.color = "red";
       });
       box.addEventListener("dragover", () => {
         box.Style.background = "#fff";
